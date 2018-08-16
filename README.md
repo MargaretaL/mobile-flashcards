@@ -1,4 +1,42 @@
+
+# Mobile Flashcards Project
+
+This is the final project for Udacity's React & Redux course.
+
+Expo has been used to develop this app. This project has been tested on an Android phone. 
+
+AsyncStorage was used to save and store data.
+
+
+## Intallation
+
+*install all project dependencies with npm install
+*start the development server with npm start
+
+## Structure
+
+The app src folder has 2 subfolders. -components for components and utils for the helper and _DATA files.
+
+## Interactivity
+
+A user is able to quiz oneself. The user can also create new decks and cards to each individual deck.
+
+## Data
+
+Data consists of:
+
+* decks array
+* saveDecks() function
+* fetchDecks() function
+
+## helpers
+
+The helpers file contains the logic for the notification.
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+
+##
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 

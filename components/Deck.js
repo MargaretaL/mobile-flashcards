@@ -5,7 +5,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Animated} from 'react-native';
 import Questions from './Questions';
-import {Button} from 'react-native-elements';
+import {Button} from 'react-native';
 
 
 class Deck extends React.Component {
