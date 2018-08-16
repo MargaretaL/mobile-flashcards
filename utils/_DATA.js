@@ -42,7 +42,6 @@ export async function fetchDecks() {
         }
         return decks;
     } catch (error) {
-        // Error retrieving data
     }
 }
 

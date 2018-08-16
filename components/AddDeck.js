@@ -1,6 +1,3 @@
-/**
- * Created by lilit on 2018-08-15.
- */
 
 /**
  * Created by lilit on 2018-08-14.
@@ -10,14 +7,11 @@ import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Button, TextInput} from 'react-native';
 import {saveDecks} from '../utils/_DATA';
 
-import {AsyncStorage} from 'react-native';
-
 
 class AddCard extends React.Component {
     state = {
         title: ''
     };
-
 
     createDeck = () => {
         const {decks} = this.props.navigation.state.params;

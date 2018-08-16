@@ -2,13 +2,10 @@ import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import Decks from './components/Decks';
 import Questions from './components/Questions';
-import {saveDecks} from './utils/_DATA';
-import {AsyncStorage} from 'react-native';
 import Deck from './components/Deck';
 import Answer from './components/Answer';
 import AddCard from './components/AddCard';
 import AddDeck from './components/AddDeck';
-
 
 
 import {fetchDecks} from './utils/_DATA';
