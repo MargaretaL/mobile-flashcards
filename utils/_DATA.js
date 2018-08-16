@@ -10,7 +10,6 @@ export const decks = [
         questions: [
             {question: 'What is React?', answer: 'A library for managing user interfaces'},
             {question: 'Where do you make Ajax requests in React?', answer: 'The componentDidMount lifecycle event'},
-            {question: 'Wwwwhat is React?', answer: 'A library for managing user interfaces'}
         ]
     },
     {
